@@ -98,9 +98,9 @@ export default async function on({ cht, Exp, store, ev, is }) {
                 forwardingScore: 19,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: cfg.chId || {
-                  newsletterJid: '120363301254798220@newsletter',
-                  newslettedName: 'Termai',
-                  serverMessageId: 152,
+                  newsletterJid: '120363406806546866@newsletter',
+                  newslettedName: 'Bella Clarissa',
+                  serverMessageId: 100,
                 },
               },
             },
@@ -135,9 +135,9 @@ export default async function on({ cht, Exp, store, ev, is }) {
                 isForwarded: true,
                 externalAdReply: {
                   title: cht.pushName,
-                  body: 'Artificial Intelligence, The beginning of the robot era',
+                  body: 'Bella Clarissa ur AI friend',
                   thumbnailUrl,
-                  sourceUrl: 'https://github.com/Rifza123',
+                  sourceUrl: 'https://instagram.com/@nayy.innn',
                   mediaUrl: `http://ẉa.me/6283110928302/${Math.floor(Math.random() * 100000000000000000)}`,
                   renderLargerThumbnail: true,
                   mediaType: 1,
@@ -146,9 +146,9 @@ export default async function on({ cht, Exp, store, ev, is }) {
                   sourceUrl: 'https://instagram.com/rifza.p.p',
                 },
                 forwardedNewsletterMessageInfo: cfg.chId || {
-                  newsletterJid: '120363301254798220@newsletter',
-                  newslettedName: 'Termai',
-                  serverMessageId: 152,
+                  newsletterJid: '120363406806546866@newsletter',
+                  newslettedName: 'Bella Clarissa',
+                  serverMessageId: 100,
                 },
               },
             },
@@ -161,9 +161,9 @@ export default async function on({ cht, Exp, store, ev, is }) {
           contextInfo: {
             externalAdReply: {
               title: cht.pushName,
-              body: 'Artificial Intelligence, The beginning of the robot era',
+              body: 'Bella Clarissa ur AI friend',
               thumbnail: fs.readFileSync(fol[3] + 'bell.jpg'),
-              sourceUrl: 'https://github.com/Rifza123',
+              sourceUrl: 'https://instagram.com/@nayy.innn',
               mediaUrl: `http://ẉa.me/6283110928302/${Math.floor(Math.random() * 100000000000000000)}`,
               renderLargerThumbnail: true,
               showAdAttribution: true,
@@ -175,9 +175,9 @@ export default async function on({ cht, Exp, store, ev, is }) {
             forwardingScore: 19,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: '120363301254798220@newsletter',
-              newslettedName: 'Termai',
-              serverMessageId: 152,
+              newsletterJid: '120363406806546866@newsletter',
+              newslettedName: 'Bella Clarissa',
+              serverMessageId: 100,
             },
           },
         };
