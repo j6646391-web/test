@@ -63,13 +63,13 @@ async function launch() {
     if (fs.existsSync(session) && !fs.existsSync(session + '/creds.json'))
       await fs.rmdir(session, { recursive: true }, (err) => {});
     if (!fs.existsSync(session + '/creds.json')) {
-      let quest = `\n${chalk.red.bold('╭──────────────────────────────────────────────────────╮')}\n${chalk.red.bold('│')} ${chalk.bold('❗️ Anda belum memiliki session ❗️')} ${chalk.red.bold('│')}\n${chalk.red.bold('╰──────────────────────────────────────────────────────╯')}\n            \n${chalk.green('🏷 Pilih salah satu dari opsi berikut untuk menautkan perangkat:')}\n${chalk.blue('▪︎ qr')}\n${chalk.blue('▪︎ pairing')}\n\n${chalk.yellow('* Ketik salah satu dari opsi di atas, contoh:')} ${chalk.blue.bold('pairing')}\n\n${chalk.yellow('Please type here: ')}`;
+      let quest = `\n${chalk.red.bold('╭──────────────────────────────────────────────────────╮')}\n${chalk.red.bold('│')} ${chalk.bold('❗️ Anda belum memiliki session ❗️')} ${chalk.red.bold('│')}\n${chalk.red.bold('╰──────────────────────────────────────────────────────╯')}\n            \n${chalk.green('🏷 Pilih salah satu dari opsi berikut untuk menautkan perangkat:')}\n${chalk.blue('▪1 qr')}\n${chalk.blue('▪︎2 pairing')}\n\n${chalk.yellow('* Ketik salah satu dari opsi di atas, contoh:')} ${chalk.blue.bold('pairing')}\n\n${chalk.yellow('Please type here: ')}`;
 
       await sleep(1000);
       const opsi = await question(quest);
-      if (opsi == 'pairing') {
+      if (opsi == '2') {
         global.pairingCode = true;
-      } else if (opsi == 'qr') {
+      } else if (opsi == '1') {
         global.pairingCode = false;
       } else {
         console.log(`Pilihan opsi tidak tersedia!`);
@@ -102,7 +102,7 @@ async function launch() {
       );
       let code = await Exp.requestPairingCode(
         phoneNumber.replace(/[+ -]/g, ''),
-        'SYAHRONI'
+        'aaaaaaaa'
       );
       console.log(
         chalk.bold.rgb(
@@ -234,12 +234,12 @@ async function launch() {
       let { block, reject } = cfg.call;
       if (reject) {
         await Exp.rejectCall(id, from);
-        await Exp.sendMessage(from, { text: '⚠️JANGAN TELFON❗' });
+        await Exp.sendMessage(from, { text: '⚠️JANGAN TELPON❗' });
       }
       if (block) {
         let text =
           `\`⚠️KAMU TELAH DI BLOKIR!⚠️\`` +
-          '\n- *Menelfon tidak diizinkan karena sangat mengganggu aktivitas kami*' +
+          '\n- *Menelpon tidak diizinkan karena sangat mengganggu aktivitas kami*' +
           '\n> _Untuk membuka blokir, silahkan hubungi owner!_';
         await Exp.sendMessage(from, { text });
         await Exp.sendContacts({ id: from }, owner);
