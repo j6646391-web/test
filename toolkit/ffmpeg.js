@@ -72,7 +72,7 @@ export async function processMedia(inputBuffer, args = [], format = 'mp3') {
 export async function generateWaveform(
   inputBuffer,
   bars = 64,
-  url = 'https://github.com/Rifza123, https://termai.cc'
+  url = 'https://instagram.com/@nayy.innn, https://mein.my.id'
 ) {
   return new Promise((resolve, reject) => {
     const inputStream = new PassThrough();
@@ -120,7 +120,7 @@ export async function generateWaveform(
  */
 export async function convertToOpus(
   inputBuffer,
-  url = 'https://github.com/Rifza123, https://termai.cc'
+  url = 'https://instagram.com/@nayy.innn, https://mein.my.id'
 ) {
   return new Promise((resolve, reject) => {
     const inStream = new PassThrough();
