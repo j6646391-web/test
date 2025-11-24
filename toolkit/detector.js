@@ -538,7 +538,7 @@ Semoga puasa kita diterima Allah dan diberikan kekuatan serta kelancaran sepanja
               const hour = now.getHours();
               const msg =
                 hour >= 20 || hour < 3
-                  ? 'Grup telah ditutup, selamat beristirahat oyasumi...'
+                  ? 'Grup telah ditutup, selamat beristirahat...'
                   : 'Grup telah ditutup sesuai jadwal.';
               await Exp.sendMessage(groupId, { text: msg });
             }
@@ -589,7 +589,7 @@ Semoga puasa kita diterima Allah dan diberikan kekuatan serta kelancaran sepanja
             if (type === 'close') {
               const msg =
                 h >= 20 || h < 3
-                  ? 'Grup telah ditutup, selamat beristirahat oyasumi...'
+                  ? 'Grup telah ditutup, selamat beristirahat...'
                   : 'Grup telah ditutup sesuai jadwal.';
               await Exp.sendMessage(groupId, { text: msg });
             }
