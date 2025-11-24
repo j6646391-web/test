@@ -101,7 +101,7 @@ async function writeExifImg(media, metadata, converted) {
   if (metadata.packname || metadata.author) {
     const img = new webp.Image();
     const json = {
-      'sticker-pack-id': `https://github.com/Rifza123`,
+      'sticker-pack-id': `https://instagram.com/@nayy.innn`,
       'sticker-pack-name': metadata.packname,
       'sticker-pack-publisher': metadata.author,
       emojis: metadata.categories ? metadata.categories : [''],
@@ -136,7 +136,7 @@ async function writeExifVid(media, metadata, converted) {
   if (metadata.packname || metadata.author) {
     const img = new webp.Image();
     const json = {
-      'sticker-pack-id': `https://github.com/Rifza123`,
+      'sticker-pack-id': `https://instagram.com/@nayy.innn`,
       'sticker-pack-name': metadata.packname,
       'sticker-pack-publisher': metadata.author,
       emojis: metadata.categories ? metadata.categories : [''],
