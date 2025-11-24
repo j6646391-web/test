@@ -6,4 +6,4 @@ export const bgcolor = (text, bgcolor = 'green') =>
 export const biocolor = (text, bgcolor = 'green') =>
   chalk.bgKeyword(bgcolor).bold(text);
 export const ConsoleLog = (text, color) =>
-  chalk.yellow(`[${color ? 'Rifza' : 'RIFZA'}]`);
+  chalk.yellow(`[${color ? 'Bella' : 'BELLA'}]`);
