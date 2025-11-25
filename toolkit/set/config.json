@@ -1,20 +1,20 @@
 {
-  "owner": ["62831xxxxxxxx"],
+  "owner": ["6285143227889"],
   "botname": "Bella",
   "botfullname": "Bella Clarissa",
   "botnickname": "El",
-  "ownername": "rifza",
+  "ownername": "ainz",
   "locale": "id",
   "cfg": {
     "public": true,
     "ai_interactive": {
-      "group": false,
+      "group": true,
       "private": true,
       "energy": false,
       "partResponse": true
     },
-    "autotyping": false,
-    "autoreadpc": false,
+    "autotyping": true,
+    "autoreadpc": true,
     "autoreadgc": true,
     "welcome": "linkpreview",
     "first": {
@@ -63,11 +63,11 @@
         "converter": "*<🔀 Converter>*"
       },
       "chId": {
-        "newsletterJid": "120363301254798220@newsletter",
-        "serverMessageId": 471,
-        "newsletterName": "Termai ▪︎ Information ✨🌙"
+        "newsletterJid": "120363406806546866@newsletter",
+        "serverMessageId": 100,
+        "newsletterName": "Bella Clarissa"
       },
-      "video": "https://c.termai.cc/v61/灱Jzn東9捡"
+      "video": "https://files.catbox.moe/ovqvha.mp4"
     },
     "donate": {},
     "premium_mode": true,
@@ -104,8 +104,7 @@
     "antitagowner": true,
     "keyChecker": false,
     "gcurl": [
-      "https://chat.whatsapp.com/EKfOaI6O6iQB3kGut5ajuM",
-      "https://chat.whatsapp.com/JLQVgObv8No5jNMIr38rc2"
+      "https://chat.whatsapp.com/CxOIFsZBnZ4FQusc4Bt6eM?mode=wwt"
     ],
     "rpg": {
       "flow": 1,
@@ -200,7 +199,7 @@
   },
   "api": {
     "xterm": {
-      "key": "Bell409",
+      "key": "nayy",
       "url": "https://api.termai.cc"
     }
   }
