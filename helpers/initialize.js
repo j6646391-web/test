@@ -96,7 +96,7 @@ export default async function initialize({ Exp, store }) {
           cht.id,
           {
             contactsArrayMessage: {
-              displayName: '‎X-TERMAI',
+              displayName: 'AHZRIEL',
               contacts,
               ...(cht.key && cht.sender
                 ? {
